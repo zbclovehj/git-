@@ -18,9 +18,14 @@ Git本地有三个工作区域：工作目录（Working Directory）、暂存区
 
 #查看指定文件状态
 git status [filename]
+
 查看所有文件状态
-git status
-git add .                添加所有文件到暂存区
+
+git status   获得状态
+
+git add .                添加所有文件到暂存区、
+
+
 git commit -m "消息内容"  提交暂存区中的内容到本地仓库 -m 提交信息
 
 git push origin master 这里表示将本地仓库当前master分支的内容推到远程仓库上面去
